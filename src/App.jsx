@@ -1,10 +1,23 @@
 import React from "react"
+import Profile from "./components/Profile"
+import Skills from "./components/Skills"
+import About from "./components/About"
+import Footer from "./components/Footer"
+import Connect from "./components/Connect"
 
 function App() {
 
   return (
     <>
-      <div className="text-4xl">hello</div>
+      <div className="flex justify-center">
+        <div>
+          <Profile />
+          <About/>
+          <Skills />
+          <Footer/>
+          {/* <Connect/> */}
+        </div>
+      </div>
     </>
   )
 }

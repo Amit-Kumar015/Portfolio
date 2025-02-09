@@ -4,6 +4,7 @@ import Skills from "./components/Skills"
 import About from "./components/About"
 import Footer from "./components/Footer"
 import Connect from "./components/Connect"
+import Projects from "./components/Projects"
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <About/>
           <Skills />
           <Footer/>
+          <Projects/>
           {/* <Connect/> */}
         </div>
       </div>

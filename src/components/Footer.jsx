@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div>
             <hr />
-            <div className='flex justify-center gap-5 bg-amber-100'>
+            <div className='flex justify-center gap-5 bg-amber-100 text-white'>
                 <span onClick={() => openInNewTab("https://github.com/Amit-Kumar015")}>
                     <FaGithub className='inline'/>
                     Github

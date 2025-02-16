@@ -2,7 +2,7 @@ import React from 'react'
 
 function Skills() {
     return (
-        <div className='w-3xl bg-neutral-800 flex flex-col'>
+        <div className='w-3xl bg-neutral-800 flex flex-col text-white'>
             <div>
                 Skills
             </div>

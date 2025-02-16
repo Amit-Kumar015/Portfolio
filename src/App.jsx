@@ -1,23 +1,20 @@
 import React from "react"
-import Profile from "./components/Profile"
-import Skills from "./components/Skills"
-import About from "./components/About"
-import Footer from "./components/Footer"
-import Connect from "./components/Connect"
-import Projects from "./components/Projects"
+import { Outlet } from "react-router-dom"
+import Sidebar from "./components/Sidebar"
+// import Skills from "./components/Skills"
+// import About from "./components/About"
+// import Footer from "./components/Footer"
+// // import Connect from "./components/Connect"
+// import Projects from "./components/Projects"
 
 function App() {
 
   return (
     <>
-      <div className="flex justify-center">
-        <div>
-          <Profile />
-          <About/>
-          <Skills />
-          <Footer/>
-          <Projects/>
-          {/* <Connect/> */}
+      <div className="w-screen h-screen bg-neutral-900 flex justify-center items-center">
+        <div className="w-[90%] h-[90%] bg-neutral-900 flex items-center">
+          <Outlet />
+          <Sidebar />
         </div>
       </div>
     </>

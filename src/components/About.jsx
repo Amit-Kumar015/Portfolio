@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='w-3xl bg-neutral-800 flex flex-col justify-center'>
+    <div className='w-3xl bg-neutral-800 flex flex-col justify-center text-white'>
       <div>About Me</div>
       <p>Hi, I'm Amit Kumar, an undergraduate and a Software Engineer. I love building real-world projects, solving complex problems, and creating products that make a difference.</p>
       <br />

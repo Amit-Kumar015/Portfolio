@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen bg-neutral-900 flex justify-center items-center">
+      <div className="w-screen h-screen bg-neutral-900 flex justify-center items-center overflow-scroll">
         <div className="w-[90%] h-[90%] bg-neutral-900 flex items-center">
           <Outlet />
           <Sidebar />

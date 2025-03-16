@@ -6,11 +6,13 @@ import App from './App.jsx'
 import Profile from "./components/Profile.jsx"
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import Projects from './components/Projects.jsx'
+import About from './components/About.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<App/>}>
       <Route path='' element={<Profile/>}/>
+      <Route path='about' element={<About/>}/>
       <Route path='projects' element={<Projects/>}/>
     </Route>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import photo from "../../public/portfolio.jpg"
 import { Typewriter } from 'react-simple-typewriter';
 import { MdArrowForwardIos } from "react-icons/md";
+import { useNavigate } from 'react-router';
 
 import { FaGithub, FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
 import { IoLocationOutline } from "react-icons/io5";
@@ -11,6 +12,8 @@ function Profile() {
     const openInNewTab = (url) => {
         window.open(url, "_blank", "noopener,noreferrer")
     }
+
+    const navigate = useNavigate()
 
     return (
         <div className='w-full flex items-center px-3 gap-2 text-white bg-neutral-900'>
@@ -39,9 +42,9 @@ function Profile() {
                 <p className='text-xl pr-10 font-serif font-normal'>
                     I'm a Delhi-based web developer and Tech enthusiast crafting innovative digital experiences, passionate about user-friendly interfaces, enriching lives through technology.
                 </p>
-                <div className='mt-10 flex justify-between items-center w-45 h-15 rounded-4xl bg-neutral-900 border border-white'>
+                <div className='mt-10 flex justify-between items-center w-45 h-15 rounded-4xl bg-neutral-900 border border-red-500'>
                     <span className='pl-5 text-lg font-bold'>About Me</span>
-                    <span className='bg-white w-15 h-15 text-center leading-[3.75rem] rounded-4xl'>
+                    <span className='bg-white w-15 h-15 text-center leading-[3.75rem] rounded-4xl cursor-pointer hover:bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 duration-500 delay-200' onClick={() => navigate("/about")}>
                         <MdArrowForwardIos className='inline text-black' />
                     </span>
                 </div>

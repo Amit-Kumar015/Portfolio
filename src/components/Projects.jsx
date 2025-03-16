@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from "../assets/react.svg"
+// import photo from "../assets/react.svg"
 import { FaGithub } from "react-icons/fa6";
 import { MdArrowOutward, MdGrid3X3 } from "react-icons/md";
 import { FaCode, FaDatabase } from "react-icons/fa";

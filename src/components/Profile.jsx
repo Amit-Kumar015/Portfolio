@@ -39,13 +39,13 @@ function Profile() {
                     </span>
                 </h1>
                 <br />
-                <p className='text-xl pr-10 font-serif font-normal'>
+                <p className='text-xl pr-20 font-serif font-normal'>
                     I'm a Delhi-based web developer and Tech enthusiast crafting innovative digital experiences, passionate about user-friendly interfaces, enriching lives through technology.
                 </p>
                 <div className='mt-10 flex justify-between items-center w-45 h-15 rounded-4xl bg-neutral-900 border border-red-500'>
                     <span className='pl-5 text-lg font-bold'>About Me</span>
-                    <span className='bg-white w-15 h-15 text-center leading-[3.75rem] rounded-4xl cursor-pointer hover:bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 duration-500 delay-200' onClick={() => navigate("/about")}>
-                        <MdArrowForwardIos className='inline text-black' />
+                    <span className='bg-white w-15 h-15 text-center leading-[3.75rem] rounded-4xl cursor-pointer hover:bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 duration-300 delay-200 hover:w-16 hover:h-16' onClick={() => navigate("/about")}>
+                        <MdArrowForwardIos className='inline text-black text-center' />
                     </span>
                 </div>
             </div>

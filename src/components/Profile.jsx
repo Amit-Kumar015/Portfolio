@@ -16,15 +16,15 @@ function Profile() {
     const navigate = useNavigate()
 
     return (
-        <div className='w-full flex items-center px-3 gap-2 text-white bg-neutral-900'>
+        <div className='w-full flex items-center px-3 pl-8 gap-2 text-white bg-neutral-900'>
             <div >
-                <img src={photo} alt="photo" width={700} className='rounded-3xl shadow-lg shadow-white' />
+                <img src={photo} alt="photo" width={600} className='rounded-3xl shadow-lg shadow-white' />
             </div>
             <div className='pl-10'>
                 <h1 className="text-6xl font-bold">
                     - Hi, I am Amit Kumar
                 </h1>
-                <h1 className='pl-7 text-4xl'>
+                <h1 className='pl-10 text-4xl'>
                     {' '}
                     <span className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent text-4xl font-bold">
                         <Typewriter

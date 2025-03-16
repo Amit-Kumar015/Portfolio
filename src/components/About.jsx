@@ -115,7 +115,80 @@ function About() {
         </div>
       </div>
 
+      <div className='mt-32'>
+        <span className='text-neutral-900'>________________________________________________</span>
+        <hr className='text-white' />
+      </div>
 
+      <div className="flex justify-center bg-white min-h-screen py-10">
+      <div className="relative w-1 bg-white h-full">
+        {/* Timeline Line */}
+        <div className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-white h-full"></div>
+
+        {/* React.js Developer */}
+        <div className="flex flex-col items-center relative mb-80">
+          {/* Circle Icon */}
+          <div className="absolute -left-7.3 bg-white p-3 rounded-full border-4 border-neutral-700 flex items-center justify-center w-16 h-16">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" className="w-8 h-8" />
+          </div>
+          {/* Timeline Card */}
+          <div className="absolute left-[-420px] top-10 bg-neutral-800 text-white p-5 rounded-xl shadow-lg w-96">
+            <h3 className="text-xl font-bold">React.js Developer</h3>
+            <p className="text-sm text-gray-400">React.js, Tailwind CSS</p>
+            <ul className="list-disc list-inside text-sm mt-2">
+              <li>Developed and maintained web apps using React.js & Tailwind.</li>
+              <li>Implemented responsive design & ensured cross-browser compatibility.</li>
+              <li>Built various projects and mastered React components.</li>
+            </ul>
+          </div>
+          {/* Date */}
+          <p className="absolute right-[-200px] top-10 text-gray-300 text-sm">Nov 2023 - March 2024</p>
+        </div>
+
+        {/* fullstack Developer */}
+        <div className="flex flex-col items-center relative mb-80">
+          {/* Circle Icon */}
+          <div className="absolute -right-7.3 bg-white p-3 rounded-full border-4 border-neutral-700 flex items-center justify-center w-16 h-16">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAA7ElEQVR4AWJwLwC0WwcaCENhFMefoV6hABgEBhDAxN7jAggRPcSeoAcYQFgIInuSIcAlwLqHM45klvtt0PCXO7Pfvu3Gskn7c3AG/WldhNIpwRaNDQJadb9EH9agYiWQ13G55doRPYwFLkKNIpiQ68QcZIqUXHuszUBMo1PJLm2JJ/qoo0FcSKZCBdGc62asd5h8wkRTKxCIkwsvZPMU+h7tQP4VNB5zehNR4LWq6tD+y+N0xHyH8/wzigFbXEA2TColiMed3ODTBMQUPXlzEJP0ZQnWl9t9MyQr8KdiwTy0C2WD4rnzN80MmvcG9xb1UQNO3ZEAAAAASUVORK5CYII=" alt="React" className="w-10 h-10" />
+          </div>
+          {/* Timeline Card */}
+          <div className="absolute right-[-420px] top-10 bg-neutral-800 text-white p-5 rounded-xl shadow-lg w-96">
+            <h3 className="text-xl font-bold">Full Stack Developer</h3>
+            <p className="text-sm text-gray-400">MERN Stack</p>
+            <ul className="list-disc list-inside text-sm mt-2">
+              <li>Crafting and maintaining web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+              <li>Collaborating with other developers to design and implement new ideas.</li>
+              <li>Ensuring optimal performance and scalability of applications.</li>
+              <li>Participating in code reviews.</li>
+            </ul>
+          </div>
+          {/* Date */}
+          <p className="absolute left-[-200px] top-10 text-gray-300 text-sm">April 2024 - Present</p>
+        </div>
+
+
+        {/* Nextjs Developer */}
+        <div className="flex flex-col items-center relative mb-80">
+          {/* Circle Icon */}
+          <div className="absolute -right-7.3 bg-white p-3 rounded-full border-4 border-neutral-700 flex items-center justify-center w-16 h-16">
+            <span className="text-black font-bold text-xl">N</span>
+          </div>
+          {/* Timeline Card */}
+          <div className="absolute left-[-420px] top-10 bg-neutral-800 text-white p-5 rounded-xl shadow-lg w-96">
+            <h3 className="text-xl font-bold">Next.js Developer</h3>
+            <p className="text-sm text-gray-400">Next.js</p>
+            <ul className="list-disc list-inside text-sm mt-2">
+              <li>Developed responsive and performant web apps using Next.js.</li>
+              <li>Worked with server-side rendering & API routes.</li>
+            </ul>
+          </div>
+          {/* Date */}
+          <p className="absolute right-[-200px] top-10 text-gray-300 text-sm">April 2024 - Present</p>
+        </div>
+      </div>
+    </div>
+
+      
 
       <div className='min-h-28 text-neutral-900'>s</div>
     </div>

@@ -14,7 +14,7 @@ function Sidebar() {
     const navigate = useNavigate()
 
     return (
-        <div className='w-[10%] bg-neutral-900'>
+        <div className='w-[10%] bg-neutral-900 fixed right-6 top-48'>
             <div className='w-full text-white flex flex-col items-center justify-center py-5 gap-5'>
                 <span className="w-12 h-12 flex items-center justify-center rounded-full bg-neutral-600">
                     <IoMdHome className="text-white text-2xl" onClick={() => navigate("/")}/>

@@ -1,11 +1,6 @@
 import React from "react"
 import { Outlet } from "react-router-dom"
 import Sidebar from "./components/Sidebar"
-// import Skills from "./components/Skills"
-// import About from "./components/About"
-// import Footer from "./components/Footer"
-// // import Connect from "./components/Connect"
-// import Projects from "./components/Projects"
 
 function App() {
 
@@ -20,16 +15,5 @@ function App() {
     </>
   )
 }
-
-// leave a message - later
-// profile
-// aboutme 
-// experience
-// projects
-// blogs
-// skills
-// contact
-// connect
-// footer
 
 export default App

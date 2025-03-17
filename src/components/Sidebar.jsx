@@ -3,7 +3,7 @@ import { IoMdHome } from "react-icons/io";
 import { IoPersonSharp } from "react-icons/io5";
 import { MdOutlineWorkOutline } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
-import { FaGithub, FaSquareXTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 import { useNavigate, useLocation } from 'react-router';
 
@@ -24,7 +24,6 @@ function Sidebar() {
                     { path: "/", Icon: IoMdHome },
                     { path: "/about", Icon: IoPersonSharp },
                     { path: "/projects", Icon: MdOutlineWorkOutline },
-                    { path: "/mail", Icon: IoIosMail },
                 ].map(({ path, Icon }) => (
                     <span
                         key={path}
@@ -37,6 +36,7 @@ function Sidebar() {
                 ))}
 
                 {[
+                    { url: "mailto:amitk200415@gmail.com", Icon: IoIosMail },
                     { url: "https://www.linkedin.com/in/amit-kumar-0b47ba200/", Icon: FaLinkedin },
                     { url: "https://github.com/Amit-Kumar015", Icon: FaGithub },
                     { url: "https://leetcode.com/u/amitk200415/", Icon: SiLeetcode },
@@ -53,5 +53,8 @@ function Sidebar() {
         </div>
     )
 }
+
+
+// { path: "/mail", Icon: IoIosMail },
 
 export default Sidebar

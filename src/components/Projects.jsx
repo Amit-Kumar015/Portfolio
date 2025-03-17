@@ -27,10 +27,10 @@ function Projects() {
                     </span>
                 </div>
             </div>
-            <div className='grid grid-cols-3 gap-6 mt-6'>
+            <div className='grid grid-cols-3 gap-6 mt-14'>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>Food Recipe Website</h4>
                             <p className='text-gray-400 mb-1'> A dynamic and responsive platform to Search for recipes by name, category, or cuisine and discover delicious dishes.
                             </p>
@@ -71,7 +71,7 @@ function Projects() {
                 </div>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>Blog Website</h4>
                             <p className='text-gray-400 mb-1'>A dynamic blog website where users can explore, search, and read insightful articles on various topics.
                             </p>
@@ -112,7 +112,7 @@ function Projects() {
                 </div>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>Flashcard App</h4>
                             <p className='text-gray-400 mb-1'>This is a Flashcard web app that helps users create, review and progress through flashcards using Leitner System. 
                             </p>
@@ -153,7 +153,7 @@ function Projects() {
                 </div>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>Backend Of Video Streaming Website</h4>
                             <p className='text-gray-400 mb-1'> A robust backend for a video streaming platform, enabling seamless video uploads, storage, and retrieval. 
                             </p>
@@ -194,7 +194,7 @@ function Projects() {
                 </div>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>Quiz App</h4>
                             <p className='text-gray-400 mb-1'>Your quiz app is an interactive web application that allows users to answer questions, test their knowledge, and track their progress.
                             </p>
@@ -235,7 +235,7 @@ function Projects() {
                 </div>
                 <div className='border-1 border-solid border-gray-500 p-5 rounded-xl max-w-[20rem] hover:shadow-md shadow-white duration-300'>
                     <div className='flex justify-between items-start'>
-                        <div>
+                        <div className='min-h-[10rem]'>
                             <h4 className='text-xl font-bold mb-1'>News Website</h4>
                             <p className='text-gray-400 mb-1'>A platform for delivering the latest news across various categories such as technology, sports, politics, entertainment, and more.
                             </p>

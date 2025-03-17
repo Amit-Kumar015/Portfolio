@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from "../../public/portfolio.jpg"
+import photo from "../../public/portfolio-2.jpg"
 import { Typewriter } from 'react-simple-typewriter';
 import { MdArrowForwardIos } from "react-icons/md";
 import { useNavigate } from 'react-router';
@@ -16,17 +16,17 @@ function Profile() {
     const navigate = useNavigate()
 
     return (
-        <div className='w-full flex items-center px-3 pl-8 gap-2 text-white bg-neutral-900'>
+        <div className='w-full flex items-center px-3 gap-2 text-white bg-neutral-900'>
             <div >
-                <img src={photo} alt="photo" width={600} className='rounded-3xl shadow-lg shadow-white' />
+                <img src={photo} alt="photo" width={500} className='rounded-3xl shadow-lg shadow-white' />
             </div>
             <div className='pl-10'>
-                <h1 className="text-6xl font-bold">
+                <h1 className="text-5xl font-bold">
                     - Hi, I am Amit Kumar
                 </h1>
                 <h1 className='pl-10 text-4xl'>
                     {' '}
-                    <span className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent text-4xl font-bold">
+                    <span className="bg-gradient-to-r from-red-500 via-orange-500 to-yellow-500 bg-clip-text text-transparent text-3xl font-bold">
                         <Typewriter
                             words={['Software Engineer', 'Web Developer', 'Tech Enthusiast']}
                             loop={Infinity}
@@ -39,7 +39,7 @@ function Profile() {
                     </span>
                 </h1>
                 <br />
-                <p className='text-xl pr-20 font-serif font-normal'>
+                <p className='text-lg pr-10 font-serif font-normal'>
                     I'm a Delhi-based web developer and Tech enthusiast crafting innovative digital experiences, passionate about user-friendly interfaces, enriching lives through technology.
                 </p>
                 <div className='mt-10 flex justify-between items-center w-45 h-15 rounded-4xl bg-neutral-900 border border-red-500'>

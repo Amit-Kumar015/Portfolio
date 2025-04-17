@@ -65,7 +65,7 @@ function About() {
         <div className='mt-10 flex justify-between items-center w-fit h-15 rounded-4xl bg-neutral-900 border border-white'>
           <span className='pl-5 text-xl font-medium mr-2 bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent'>DOWNLOAD RESUME</span>
           <a
-            href="/resume.pdf"  // Replace with actual resume file path
+            href="/Resume.pdf"// Replace with actual resume file path
             download="Amit_Kumar_Resume.pdf"
             className='bg-white w-15 h-15 text-center leading-[3.75rem] rounded-4xl hover:bg-gradient-to-r from-purple-400 to-blue-500 text-white group flex items-center justify-center'
           >

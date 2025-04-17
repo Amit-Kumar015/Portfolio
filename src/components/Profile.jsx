@@ -1,5 +1,4 @@
 import React from 'react'
-import photo from "../img/portfolio-2.jpg"
 import { Typewriter } from 'react-simple-typewriter';
 import { MdArrowForwardIos } from "react-icons/md";
 import { useNavigate } from 'react-router';
@@ -14,7 +13,7 @@ function Profile() {
     return (
         <div className='w-full flex items-center px-3 gap-2 text-white bg-neutral-900'>
             <div >
-                <img src={photo} alt="photo" width={500} className='rounded-3xl shadow-lg shadow-white' />
+                <img src="/portfolio-2.jpg" alt="photo" width={500} className='rounded-3xl shadow-lg shadow-white' />
             </div>
             <div className='pl-10'>
                 <h1 className="text-5xl font-bold">

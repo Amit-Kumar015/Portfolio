@@ -6,6 +6,8 @@ function About() {
     window.open(url, "_blank", "noopener,noreferrer")
   }
 
+  const languages = ["JavaScript", "Typescript", "Nextjs", "Reactjs", "Node.js", "MongoDB", "Express", "MySQL", "Tailwind", "Python", "C++", "C", "Git", "Figma", "Wordpress"];
+
   return (
     <div className='w-full h-full flex flex-col items-center px-3 gap-2 text-white bg-neutral-900'>
       <div className="relative flex justify-center mb-10">
@@ -82,21 +84,14 @@ function About() {
           SKILLS
         </div>
         <div className='mt-14 grid grid-cols-5 gap-3 '>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Javascript</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Typescript</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Nextjs</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Reactjs</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>MongoDB</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Tailwind</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Nodejs</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Expressjs</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Python</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>C++</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>C</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Git</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Figma</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Wordpress</div>
-          <div className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md cursor-pointer hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'>Bootstrap</div>
+          {languages.map((lang) => (
+            <div
+              key={lang}
+              className='border-1 border-solid border-gray-500 w-44 text-center text-lg font-medium py-3 rounded-md hover:bg-gradient-to-r from-purple-400 to-blue-500 hover:shadow-lg shadow-white duration-300'
+            >
+              {lang}
+            </div>
+          ))}
         </div>
       </div>
 

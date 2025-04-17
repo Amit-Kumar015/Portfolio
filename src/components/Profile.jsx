@@ -1,5 +1,5 @@
 import React from 'react'
-import photo from "../../public/portfolio-2.jpg"
+import photo from "../img/portfolio-2.jpg"
 import { Typewriter } from 'react-simple-typewriter';
 import { MdArrowForwardIos } from "react-icons/md";
 import { useNavigate } from 'react-router';

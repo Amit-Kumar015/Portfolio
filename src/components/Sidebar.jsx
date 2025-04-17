@@ -54,7 +54,4 @@ function Sidebar() {
     )
 }
 
-
-// { path: "/mail", Icon: IoIosMail },
-
 export default Sidebar

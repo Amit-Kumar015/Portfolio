@@ -7,7 +7,7 @@ interface FooterLink {
 
 const footerLinks: FooterLink[] = [
   { title: "LinkedIn", href: "https://www.linkedin.com/in/amit-kumar-0b47ba200/" },
-  { title: "Resume", href: "https://drive.google.com/file/d/1WT7tgyeTo61wLAkWuqW2aHvF4CIIMYSj/view?usp=drive_link" },
+  { title: "Resume", href: "https://drive.google.com/file/d/1Uj-5Oky3J74PSSzEfrwiylWsuO1SYOyA/view?usp=drive_link" },
   {
     title: "Github",
     href: "https://github.com/Amit-Kumar015",

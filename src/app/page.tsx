@@ -5,12 +5,14 @@ import { TapeSection } from "@/sections/Tape";
 import { AboutSection } from "@/sections/About";
 import { ContactSection } from "@/sections/Contact";
 import { Footer } from "@/sections/Footer";
+import { ExperienceSection } from "@/sections/Experience";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <HeroSection />
+      <ExperienceSection />
       <ProjectsSection />
       <TapeSection />
       <AboutSection />

@@ -1,4 +1,4 @@
-import flashcard from "@/assets/images/flashcard.png";
+import Flashcard from "@/assets/images/Flashcard.png";
 import moviebooking from "@/assets/images/moviebooking.png";
 import mediamind from "@/assets/images/mediamind.png";
 import Image from "next/image";
@@ -73,7 +73,7 @@ const portfolioProjects = [
     ],
     liveLink: "https://new-flashcard-app-one.vercel.app/",
     githubLink: "https://github.com/Amit-Kumar015/Flashcard_App",
-    image: flashcard,
+    image: Flashcard,
   },
 ];
 

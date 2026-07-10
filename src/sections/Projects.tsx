@@ -29,7 +29,7 @@ const portfolioProjects = [
           "Containerized using Docker and automated workflows with GitHub Actions.",
       },
     ],
-    liveLink: "",
+    liveLink: "https://mediamind-ai.vercel.app/",
     githubLink: "https://github.com/Amit-Kumar015/MediaMind_AI",
     image: mediamind,
   },
